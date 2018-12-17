@@ -15,20 +15,19 @@
 
 ## Business Understanding
 
-1. How can we maximize our rental revenue? 
+1. Which neighborhoods in Boston have the highest rental prices?
+
+2. What time of year has the highest rental prices?
+
+3. How can we maximize our rental revenue? 
 
 What are the major factors that influence the price of an airbnb rental in Boston?
-2. How can we make sure our guests are satisfied?
 
-What are the major factors that influence the average rating of an airbnb rental in Boston? (for listings with x+ ratings)
-
-3. How can I maximize the utilization of my rental?
-
-Data Understanding
+## Data Understanding
 
 
-Data Preparation
-Modeling
-Evaluation
-Deployment
+## Data Preparation
+## Modeling
+## Evaluation
+## Deployment
 
