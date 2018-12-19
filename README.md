@@ -43,12 +43,24 @@ Next, I explored the XXXX and saw NNNNN
 
 The model was developed in order to understand what drives the price of airbnb rentals in Boston.  I attempted three different regression models.  I started with a basic linear model. First, I split the data into test/train datasets and normalized the data to ensure the variables are intrepreted correctly.
 
-In addition to a basic linear regression, I decided to use both Ridge and Lasso regression models.
+In addition to a basic linear regression, I decided to use both Ridge and Lasso regression models. These models handle sparse data sets well by reducing the dimensions in the model either to a very low coefficient or as in the case of Lasso, to zero.  This is a good choice to use with this dataset that has hundreds of variables to evaluate.
 
-The ridge regression performed the best with respect to the model score.  Ridge models minimize the coefficient values of irrelevant features their impact on the trained model.
+## Evaluation and intrepretation of the model.
 
+The ridge regression performed the best with respect to the model score and cross-validation.  Ridge models minimize the coefficient values of irrelevant features their impact on the trained model.
 
+As someone who is interested in pricing a rental property on airbnb, it is important to understand key factors in the pricing.  If you already have a property, then there are some aspects you cannot change (such as location and property type). However, this model's outputs can be used to make recommendations on other factors you may be able to impact.
 
-## Evaluation
+I went out to find out a few things about Boston airbnb rental:
+
+     1. Which neighborhoods in Boston have the highest rental prices?
+
+     2. What time of year has the highest rental prices?
+
+     3. How can we maximize our rental revenue?  What are the major factors that influence the price of an airbnb rental in Boston?
+
+For the first question, I have included the average price by neighborhood:
+
+You can see that the XXX, YYY an dZZZ properties draw the highest rents.  I also wanted to see the number of rental properties in those neighborhoods.
 ## Deployment
 
