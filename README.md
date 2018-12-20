@@ -53,14 +53,37 @@ As someone who is interested in pricing a rental property on airbnb, it is impor
 
 I went out to find out a few things about Boston airbnb rental:
 
-     1. Which neighborhoods in Boston have the highest rental prices?
+     1. Which neighborhoods in Boston have the highest rental prices? 
+     
+     2. What types of properties are the most expensive to rent?
 
-     2. What time of year has the highest rental prices?
+     3. What time of year has the highest rental prices?
 
-     3. How can we maximize our rental revenue?  What are the major factors that influence the price of an airbnb rental in Boston?
+     4. How can we maximize our rental revenue?  What are the major factors that influence the price of an airbnb rental in Boston?
 
 For the first question, I have included the average price by neighborhood:
 
-You can see that the XXX, YYY an dZZZ properties draw the highest rents.  I also wanted to see the number of rental properties in those neighborhoods.
+You can see that the XXX, YYY an dZZZ properties draw the highest rents.  I also wanted to see the number of rental properties in those neighborhoods. The highest priced neighborhoods also seem to have fewer properties available for rent on airbnb.
+
+GRAPH HERE
+
+The property types also vary in price, as you can see below, the XXX and YYYY  property types garner the highest prices.
+
+This time series chart provides an easy to see trend where the prices in 2017 dropped from 2016 and spiked in April during the Boston Marathon.
+
+GRAPH HERE.
+
+Finally, the big question about how to maximize rental revenue.  I used the aforementioned model to determine what the most important coefficients are. In this case, it's important to look at the large positive coefficients and the largest negative coefficients as well.  
+GRAPH TOP 3-5 coeff, pos and neg.
+
+There are several factors that are strongly positively correlated to price, such as the location, the type of property and the cancellation policy (note, I would infer that the strict policy is the result of the premium price, NOT the cause of it!)
+
+The model confirms data we saw above where Bay Village, Leather District and the Back Bay neighborhoods are among the most expensive.  In addition, the property types of "Other", boat and entire home/apartment are also premium properties. 
+
+On the other hand, there are several variables that are negatively correlated with the price. These variables include the property type of camper/RV, dorm, and private room. The lower priced neighborhoods include Hyde Park, Roslindale and Dorchester.  
+
+The graphs above support these findings while the model's coefficients provide us a way to determine the impact of these variables on the prices.
+
+
 ## Deployment
 
