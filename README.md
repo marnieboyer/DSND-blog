@@ -1,7 +1,5 @@
 # Boston airbnb data analysis
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-
 1. Installations
 
 2. Project Motivation
