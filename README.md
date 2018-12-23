@@ -18,3 +18,5 @@ Please see my blog post on Medium to learn more about my project and findings: h
 This project helped me determine that the major drivers of pricing is the neighborhood/location and the type of property that is being offered. These factors impact the pricing more than the amenities or even the number of people the location accomodates.
 
 ## Necessary acknowledgements
+
+folium website provided sample code as well as multiple references to stack overflow
