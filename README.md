@@ -8,9 +8,10 @@ This project requires the installation of folium for mapping as well as importin
 
 ## Files in the repository:
 
-### airbnb.py: Python notebook with full code set
-### The data for this project was obtained from https://www.kaggle.com/airbnb/boston.
-### Please see my blog post on Medium to learn more about my project and findings: https://medium.com/boston-airbnb-analysis/boston-airbnb-analysis-e7034c377c4a
+airbnb.py: Python notebook with full code set
+The data for this project was obtained from https://www.kaggle.com/airbnb/boston.
+
+Please see my blog post on Medium to learn more about my project and findings: https://medium.com/boston-airbnb-analysis/boston-airbnb-analysis-e7034c377c4a
 
 ## Summary of results
 
